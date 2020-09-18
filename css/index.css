@@ -1,6 +1,109 @@
-  @charset "utf-8";
+@charset "utf-8";
 
-  /**
-   * Reset
-   */
-   @import "reset.css";
+/**
+ * Reset
+ */
+@import "reset.css";
+
+/**
+ * Home
+ */
+
+  #app {
+    margin: 0 auto;
+   /* background: url("../assets/images/home_agency.jpg") no-repeat;*/
+    background-size: cover;
+    height: 3100px;
+  }
+
+  #app header {
+    /*background-color: red;*/
+    /*background-size: cover;*/
+    /*opacity: 0.5;*/
+    background: url("../assets/images/lion.jpg") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top: 8%;
+    flex-direction: column;
+  }
+
+  .header--logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36px;
+    margin-right: 20px;
+    padding-top: 22px;
+  }
+
+  .header--logo svg{
+    fill: white;
+  }
+
+  .header--logo h1 {
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .header-title{
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 960px;
+    color: white;
+  }
+
+  section{
+    display: flex;
+    justify-content: space-between;
+    margin: 128px 0;
+  }
+
+  .header-title h3{
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  .header-title h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+   .header-title h4 span{
+    font-size: 15px;
+    display: block;
+  }
+
+  .header-title h2 > span{
+    display: block;
+  }
+
+  .sider{
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .next-right{
+    justify-content: center
+  }
+
+  .next-left{
+
+    justify-content: center;
+  }
+
+  .circle--carousel{
+    fill: white;
+    display: flex;
+    align-self: center;
+  }
+
+  
